@@ -63,9 +63,6 @@ a:hover {
 
 .section-tagline {
     font-family: var(--font-family-title);
-    /* Set font family */
     text-transform: var(--section-tagline-transform);
-    /* Transform text */
     font-weight: var(--font-weight-bold);
-    /* Set font weight */
 }
