@@ -1,11 +1,12 @@
+@mixin margin($left-right) {
+    margin-left: $left-right;
+    margin-right: $left-right;
+}
+
 body {
-    font-size: 14px;
+    @include margin(10px);
+}
 
-    h1 {
-        font-size: 16px;
-
-        &.smaller {
-            font-size: 12px;
-        }
-    }
+div {
+    @include margin(15px);
 }
