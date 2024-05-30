@@ -834,6 +834,7 @@ ul.row {
 }
 
 /*** FORM ***/
+
 /* Comment section
     ============================= */
 
@@ -847,7 +848,9 @@ ul.row {
     font-variant: small-caps;
 }
 
-/* Basic form */
+/* Basic form
+    ============================= */
+
 form {
     display: flex;
     flex-direction: column;
